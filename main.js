@@ -131,6 +131,7 @@ var AppComponent = /** @class */ (function () {
             this.data.vegetarian = this.vegetarian;
             this.data.phone = '"' + this.phone;
             this.data.join = '是';
+            this.data.message = '';
         }
         this.addData.addTrans(this.data).subscribe(function (x) {
             if (x === true) {
